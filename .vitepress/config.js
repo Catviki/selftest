@@ -2,11 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/selftest/", 
   title: "Simple VitePress Site",
   description: "Training Page for Cloud Computing Course",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+    
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
